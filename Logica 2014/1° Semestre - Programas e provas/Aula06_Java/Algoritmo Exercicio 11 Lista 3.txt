@@ -1,0 +1,11 @@
+Algoritmo "Calculo de ano bissexto"
+var
+	Ano : inteiro
+início 
+	leia Ano
+se Ano > 1584 e Ano/4=0 e Ano/100<>0 && Ano/400==0
+	escreva "Ano bissexto."
+senão 
+	escreva "Ano não bissexto."
+fim se
+fim

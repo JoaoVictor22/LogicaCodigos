@@ -1,0 +1,15 @@
+Algoritmo "Prova 1 Exercício 3"
+var
+	contador, sinal : inteiro
+	S : real
+início
+	contador <- 1
+	S <- 0
+	sinal <- 1
+	enquanto contador <= 10 faça
+		S <- S + sinal * contador / (contador * contador)
+		contador <- contador + 1
+		sinal <- sinal * (-1)
+	fim enquanto
+	escreva S
+fim

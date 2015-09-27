@@ -1,0 +1,11 @@
+Escreva um programa em Java para simular a fase de eliminatórias da Copa do Brasil. Deverão ser considerados 32 times iniciais, que se enfrentarão no esquema de eliminatórias, com jogo de ida e jogo de volta. Não serão considerados gols qualificados. Será considerado vencedor e avançará para a próxima fase aquele time que obtiver o maior saldo de gols considerando os jogos de ida e de volta. Caso o saldo de gols dos dois times seja igual, o resultado será definido nos pênaltis. Na primeira fase, os 32 times se enfrentam 2 a 2 e 16 times avançam para a segunda fase. Na segunda fase, os 16 times se enfrentam 2 a 2 e 8 times avançam para a próxima fase e assim por diante, até que sobrem apenas 2 times que se enfrentarão na fase final.
+
+1) Deverão ser informados os nomes dos 32 times iniciais
+2) Deverão ser montadas as chaves, 1o. time enfrenta o 2o. time, 3o. time enfrenta o 4o. e assim por diante
+3) Deverão ser informados os placares dos jogos de ida da fase
+4) Deverão ser informados os placares dos jogos de volta da fase
+5) Deverão ser informados os placares dos pênaltis, quando necessário
+6) Deverão ser exibidos os times que avançam para a próxima fase
+7) Os passos de 2 a 6 deverão ser repetidos até a fase final
+8) Deverá ser mostrado o time vencedor
+

@@ -1,0 +1,8 @@
+Algoritmo "Exercicio 13 da Lista 1"
+var
+    A, B, C, res : inteiro
+início
+     leia A, B, C
+     res <- A * A + B * B + C * C
+     escreva res
+fim

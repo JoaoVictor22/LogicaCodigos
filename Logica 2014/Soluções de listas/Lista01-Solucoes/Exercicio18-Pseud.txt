@@ -1,0 +1,11 @@
+Algoritmo "Exercicio 18 da Lista 1"
+var
+    altura, raio, area, litros, latas, custo : real
+início
+     leia altura, raio
+     area <- 2 * 3.14159 * raio * (altura + raio)
+	 litros <- area / 3
+	 latas <- litros / 5
+	 custo <- latas * 50
+     escreva latas, custo
+fim

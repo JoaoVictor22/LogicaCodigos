@@ -1,0 +1,9 @@
+Algoritmo "Exercicio 07 da Lista 1"
+var
+    valor, taxa_juros, novo_valor : real	
+	tempo_atraso : inteiro
+início
+     leia valor, taxa_juros, tempo_atraso
+     novo_valor <- valor + (valor * taxa_juros / 100) * tempo_atraso
+     escreva novo_valor
+fim

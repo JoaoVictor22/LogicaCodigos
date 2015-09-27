@@ -1,0 +1,8 @@
+Algoritmo "Exercicio 09 da Lista 1"
+var
+    dolares, cotacao, reais : real
+início
+     leia dolares, cotacao
+     reais <- dolares * cotacao
+     escreva reais
+fim

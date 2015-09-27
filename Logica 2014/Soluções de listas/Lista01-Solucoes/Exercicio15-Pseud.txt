@@ -1,0 +1,9 @@
+Algoritmo "Exercicio 15 da Lista 1"
+var
+    A, B, C, D, prod, soma : inteiro
+início
+     leia A, B, C, D
+     prod <- A * C
+	 soma <- B + D
+     escreva prod, soma
+fim

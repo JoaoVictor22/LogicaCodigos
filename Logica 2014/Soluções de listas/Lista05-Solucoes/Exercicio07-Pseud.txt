@@ -1,0 +1,17 @@
+Algoritmo "Lista 5 Exercicio 07"
+var
+	termo, pi : real
+	den, sinal : inteiro
+início
+	den <- 1;
+	pi <- 0.0;
+	sinal <- 1;
+	termo <- 4.0 / den
+	enquanto termo >= 0.000001 faça
+		pi <- pi + termo * sinal
+		den <- den + 2;
+		termo <- 4.0 / den
+		sinal <- sinal * (-1)
+	fim enquanto
+	escreva pi
+fim

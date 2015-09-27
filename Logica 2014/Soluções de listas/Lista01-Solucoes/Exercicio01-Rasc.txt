@@ -1,0 +1,4 @@
+1. Obter o raio como dado de entrada
+2. Calcular Raio * raio
+3. Multiplicar o resultado por 3,14159
+4. Mostrar o resultado do passo 3 na tela

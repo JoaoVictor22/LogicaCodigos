@@ -1,0 +1,9 @@
+Algoritmo "Exercicio 06 da Lista 1"
+var
+    tempo, velocidade, distancia, litros_comb : real	
+início
+     leia tempo, velocidade
+     distancia <- tempo * velocidade
+	 litros_comb <- distancia / 12
+     escreva velocidade, tempo, distancia, litros_comb
+fim

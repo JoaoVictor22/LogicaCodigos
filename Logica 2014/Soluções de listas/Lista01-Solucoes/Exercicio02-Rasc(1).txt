@@ -1,0 +1,10 @@
+1. Obter o valor da hora aula, o número de horas trabalhadas e o percentual de desconto do INSS
+
+2. Calcular salario bruto = valor da hora aula X horas trabalhadas
+
+3. Calcular desconto INSS = percentual INSS / 100 * salario bruto
+
+4. Calcular Salario liquido = salario bruto - desconto INSS
+
+5. Mostrar salario liquido
+

@@ -1,0 +1,28 @@
+Algoritmo "Exercicio 2"
+var
+	s, cont: inteiro
+
+função fatorial(numero: inteiro) : inteiro
+var
+	result, cont : inteiro
+início
+	result <- 1
+	para cont de 1 até numero faça
+		result <- result * cont
+	fim para
+	retorne result
+fim
+
+início
+	s <- 0
+	para cont de 0 até 20 faça
+		s <- s + (100-cont) / fatorial(cont)
+	fim para
+	escreva s
+fim
+
+
+
+
+
+

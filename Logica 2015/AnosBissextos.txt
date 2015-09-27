@@ -1,0 +1,8 @@
+Anos bissextos
+
+dia != 24 horas
+cada 4 anos tem
+a cada 100 anos nao tem
+a cada 400 anos tem
+
+((ano%4) == 0) && ((ano%100) !=0) || (ano%400) == 0))

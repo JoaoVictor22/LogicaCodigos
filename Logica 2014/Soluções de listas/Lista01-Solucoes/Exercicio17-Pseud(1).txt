@@ -1,0 +1,14 @@
+Algoritmo "Exercicio 17 da Lista 1"
+var
+    votosA, votosB, votosC, nulos, brancos, total : inteiro
+	percA, percB, percC, percNulos, percBrancos : real
+início
+     leia votosA, votosB, votosC, nulos, brancos
+     total <- votosA + votosB + votosC + nulos + brancos
+	 percA <- votosA / total * 100
+	 percB <- votosB / total * 100
+	 percC <- votosC / total * 100
+	 percNulos <- nulos / total * 100
+	 percBrancos <- brancos / total * 100
+     escreva total, percA, percB, percC, percNulos, percBrancos
+fim

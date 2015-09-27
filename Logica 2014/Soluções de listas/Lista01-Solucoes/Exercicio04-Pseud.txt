@@ -1,0 +1,8 @@
+Algoritmo "Exercicio 04 da Lista 1"
+var
+    celsius, farenheit : real	
+início
+     leia farenheit
+     celsius <- 5 * (farenheit – 32) / 9
+     escreva celsius
+fim

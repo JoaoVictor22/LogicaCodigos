@@ -1,0 +1,8 @@
+Algoritmo "Exercicio 03 da Lista 1"
+var
+    celsius, farenheit : real	
+início
+     leia celsius
+     farenheit <- (9 * celsius + 160) / 5
+     escreva farenheit
+fim

@@ -1,0 +1,12 @@
+Algoritmo "Aumento de Salário"
+var 
+	sal, novosal : real
+início
+	leia sal
+se sal<5000 então
+	novosal <-  sal + (sal*30/100)
+	escreva novosal
+senão
+	escreva "Nao havera reajuste."
+fim se
+fim

@@ -1,0 +1,86 @@
+char 	charAt(int index)
+
+String s = "abc";
+SOP(s.charAt(0)); //'a'
+SOP(s.charAt(1)); //'b'
+SOP(s.charAt(2)); //'c'
+
+int 	compareTo(String anotherString)
+int 	compareToIgnoreCase(String str)
+
+String s1 = "a", s2 = "a";
+SOP(s1.compareTo(s2));//zero, s1 == s2
+
+String s1 = "a", s2 = "b";
+SOP(s1.compareTo(s2)); //número negativo, s1 < s2
+SOP(s2.compareTo(s1)); //número positivo, s2 > s1
+
+if ("joao" < "maria") //NÃO PODE SER FEITO ASSIM!
+
+if (s1.compareTo(s2) == 0) //s1 == s2
+if (s1.compareTo(s2) != 0) //s1 != s2
+if (s1.compareTo(s2) > 0) //s1 > s2
+if (s1.compareTo(s2) < 0) //s1 < s2
+
+String 	concat(String str)
+
+String s1 = "abc";
+String s2 = "xyz";
+String s3 = s1.concat(s2);
+SOP(s3); //"abcxyz"
+
+boolean 	equals(Object anObject)
+boolean 	equalsIgnoreCase(String anotherString)
+
+int 	indexOf(int ch)
+int 	indexOf(int ch, int fromIndex)
+int 	indexOf(String str)
+int 	indexOf(String str, int fromIndex)
+int 	lastIndexOf(int ch)
+int 	lastIndexOf(int ch, int fromIndex)
+int 	lastIndexOf(String str)
+int 	lastIndexOf(String str, int fromIndex)
+
+String s1 = "abc xyz abc";
+SOP(s1.indexOf('a')); //0
+SOP(s1.indexOf('a',3)); //8
+SOP(s1.indexOf("bc")); //1
+SOP(s1.indexOf("bc",3)); //9
+
+boolean 	isEmpty()
+
+int 	length()
+
+String s1 = "abc";
+SOP(s1.length()); //3
+
+String 	replace(char oldChar, char newChar)
+
+String[] 	split(String regex)
+
+boolean 	startsWith(String prefix)
+boolean 	endsWith(String suffix)
+
+String 	substring(int beginIndex)
+String 	substring(int beginIndex, int endIndex)
+
+String s = "abcdefghijklmnopqrstuvwxyz";
+SOP(s.substring(10)); //"klmnopqrstuvwxyz"
+SOP(s.substring(10,14)); //"klmn"
+
+String 	toLowerCase()
+String 	toUpperCase()
+
+String 	trim()
+
+String s = "   abc  def   ghi   ";
+SOP(s.trim()); //"abc  def   ghi"
+
+static String 	valueOf(boolean b)
+static String 	valueOf(char c)
+static String 	valueOf(double d)
+static String 	valueOf(int i)
+
+String s = String.valueOf(123); //"123"
+String s = String.valueOf(1.75); //"1.75"
+

@@ -1,0 +1,11 @@
+Algoritmo "Prova 1 Exercício 2"
+var
+	horas, minutos : inteiro
+início
+	leia horas, minutos
+	se horas >= 0 e horas <= 23 e minutos >= 0 e minutos <= 59 então
+		escreva "Horário válido!"
+	senão
+		escreva "Horário inválido!"
+	fim se
+fim

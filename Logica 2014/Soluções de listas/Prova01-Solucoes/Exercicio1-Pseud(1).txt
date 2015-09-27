@@ -1,0 +1,8 @@
+Algoritmo "Prova 1 Exercicio 1"
+var
+	raio, volume : real
+início
+	leia raio
+	volume <- 4 / 3 * 3.14 * raio * raio * raio
+	escreva volume
+fim

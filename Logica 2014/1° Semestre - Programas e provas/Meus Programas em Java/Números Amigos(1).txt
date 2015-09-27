@@ -1,0 +1,29 @@
+Algoritmo "Números Amigos"
+var
+	N1, N2, Div1, Div2, soma, contador, resultmod : inteiro
+início
+	Div1 <- 0
+	Div2 <- 0
+	contador <- 1
+	leia N1, N2
+	enquanto contador < N1 faça
+	resultmod <- N1 mod contador
+		se resultmod = 0 então
+		Div1 = contador + Div1
+		fim se
+	contador <- contador + 1
+	fim enquanto
+	contador <- 1
+	enquanto contador < N2 faça
+	resultmod <- N2 mod contador
+		se resultmod = 0 então
+		Div2 <- contador + Div2
+		fim se 
+	contador <- contador + 1
+	fim enquanto
+	se Div2 = N1 e Div1 = N2 então
+	escreva N1, "e", N2, "são números amigos."
+	senão 
+	escreva N1, "e", N2, "não são números amigos."
+	fim se
+fim

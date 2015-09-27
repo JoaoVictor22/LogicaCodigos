@@ -1,0 +1,9 @@
+﻿Algoritmo "Exercicio 9 lista 3"
+var 
+	A : inteiro
+início
+	leia A
+se não (A > 3) então
+	escreva A
+fim se
+fim

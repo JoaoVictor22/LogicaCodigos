@@ -1,0 +1,12 @@
+Algoritmo "Exercicio 02 da lista 1"
+var
+    valor_hora, perc_inss : real
+    sal_bruto, desc_inss, sal_liq : real
+    horas_trab : inteiro
+início
+    leia valor_hora, horas_trab, perc_inss
+    sal_bruto <- valor_hora * horas_trab
+    desc_inss <- perc_inss / 100 * sal_bruto
+    sal_liq <- sal_bruto - desc_inss
+    escreva sal_liq
+fim

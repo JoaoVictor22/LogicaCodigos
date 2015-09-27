@@ -1,0 +1,8 @@
+Algoritmo "Exercicio 05 da Lista 1"
+var
+    raio, altura, volume : real	
+início
+     leia raio, altura
+     volume <- 3.14159 * raio * raio * altura
+     escreva volume
+fim

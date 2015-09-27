@@ -1,0 +1,13 @@
+Algoritmo "Prova 1 Exercício 5"
+var
+	senha : inteiro
+início
+	leia senha
+
+	enquanto senha != 29 e senha != 5 faça
+		escreva "Senha inválida!"
+		leia senha
+	fim enquanto
+
+	escreva "Senha correta! Acesso liberado"
+fim

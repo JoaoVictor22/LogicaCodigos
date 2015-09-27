@@ -1,0 +1,13 @@
+Algoritmo "Lista 5 Exercicio 3"
+var
+	ultimo, penultimo, tmp : inteiro
+início
+	ultimo <- 1
+	penultimo <- 0
+	enquanto ultimo < 1000 faça
+		escreva ultimo
+		tmp <- ultimo
+		ultimo <- ultimo + penultimo
+		penultimo <- tmp
+	fim enquanto
+fim

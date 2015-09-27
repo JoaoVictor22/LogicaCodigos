@@ -1,0 +1,8 @@
+Algoritmo "Exercicio 14 da Lista 1"
+var
+    A, B, C, res : inteiro
+início
+     leia A, B, C
+     res <- (A + B + C) * (A + B + C)
+     escreva res
+fim

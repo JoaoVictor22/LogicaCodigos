@@ -1,0 +1,46 @@
+MMC e MDC
+
+
+public class MMC {
+	public static void main(String[] args) {
+	
+		int n1 = Integer.parseInt(System.console().readLine("Digite o numero 1"));
+		int n2 = Integer.parseInt(System.console().readLine("Digite o numero 2"));
+
+	while (n1<n2) {
+		if(n1!=n2) {
+			n1= n1+n1;
+		}
+		if(n2>n1){
+			n2 = n2+n2;
+		}
+		if(n1==n2);
+		System.out.print(n2);
+				
+		
+	}
+	
+	
+	}
+	
+}
+
+
+
+
+
+public class MDC {
+
+		 public static void main (String [] args){
+		 int a, b, mdc; 
+
+		 a = Integer.parseInt(System.console().readLine("digite um numero"));
+		 b = Integer.parseInt(System.console().readLine("digite um numero"));
+
+		 mdc = a;
+
+		 while ((a%mdc!=0)&&(b%mdc!=0)) mdc--;
+		 System.out.println ("mdc igual a:" + mdc);
+		}	
+}
+ 

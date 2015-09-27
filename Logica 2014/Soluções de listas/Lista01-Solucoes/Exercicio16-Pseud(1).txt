@@ -1,0 +1,8 @@
+Algoritmo "Exercicio 16 da Lista 1"
+var
+    salario, reajuste, novo_salario : real
+início
+     leia salario, reajuste
+     novo_salario <- salario + salario * reajuste / 100
+     escreva novo_salario
+fim

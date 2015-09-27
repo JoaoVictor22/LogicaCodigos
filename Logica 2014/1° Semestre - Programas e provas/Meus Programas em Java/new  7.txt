@@ -1,0 +1,44 @@
+Algoritmo "Tudo sobre um número"
+var
+	N, senha, inteiro, res, N2, contador, opcao, cont2: inteiro
+	escreva "Ola! Aqui teras conhecimento de qualquer coisa sobre um numero."
+	escreva "Insira a senha para prosseguir:"
+	contador <- 3
+	leia senha
+	enquanto senha != 779 e contador >= 0 faça
+	escreva "Senha incorreta."
+	escreva "Você possui mais", contador, "tentativas."
+	contador <- contador - 1
+	fim enquanto
+	se contador = 0 então
+	escreva "Acesso negado, tentativas expiradas."
+	senão
+	escreva "Parabéns senha correta! O que desejas?"
+		escreva "1 - tabuada de um numero N"
+		escreva "2 - saber se um numero N é divisivel por um numero N2"
+		escreva "3 - numero N ao quadrado"
+		enquanto opcao = 1 ou opcao = 2 ou opcao = 3 faça
+		se opcao = 1 então
+		leia N
+		cont2 <- 1
+		enquanto cont2 <= 10 faça
+		res <- N * cont2
+		escreva N, "*", cont2,"=",res
+		cont2 <-cont2 + 1
+		fim enquanto 
+		fim se
+		se opcao = 2 então
+		leia N, N2
+			se N mod N2 = O então
+			escreva N, "e divisivel por", N2
+			senão
+			escreva "Nao e divisivel"
+			fim se
+		se opcao = 3 então
+		leia N 
+		res = N * N
+		escreva N, "ao quadrado e igual a", res
+		fim se
+		fim enquanto
+		
+		escreva "Ate logo!"

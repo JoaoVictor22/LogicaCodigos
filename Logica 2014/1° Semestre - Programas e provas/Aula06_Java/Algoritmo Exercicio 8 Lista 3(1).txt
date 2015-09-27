@@ -1,0 +1,37 @@
+﻿Algoritbggmo "Maior e menor numeros"
+var
+	A, B, C, D, E : Inteiro
+início 
+	leia A, B, C, D, E.
+se A > B e A > C e A > D e A > E então
+	escreva A, "e o maior numero."
+fim se
+se A < B e A < C e A < D e A < E então
+	escreva A, "e o menor numero."
+fim se
+se B > A e B > C e B > D e B > E então
+	escreva B, "e o maior numero."
+fim se 
+se B < A e B < C e B < D e B < E então
+	escreva B, "e o menor numero."
+fim se 
+se C > A e C > B e C > D e C > E então
+	escreva C, "e o maior numero."
+fim se
+se C < A e C < B e C < D e C < E então
+	escreva C, "e o menor numero."
+fim se
+se D > A e D > B e D > C e D > E então
+	escreva D, " e o maior numero."
+fim se
+se D < A e D < B e D < C e D < E então
+	escreva D, " e o menor numero."
+fim se
+se E > A e E > B e E > C e E > D então
+	escreva E, "e o maior numero."
+fim se 
+se E < A e E < B e E < C e E < D então
+	escreva E, "e o menor numero."
+fim se 
+fim
+

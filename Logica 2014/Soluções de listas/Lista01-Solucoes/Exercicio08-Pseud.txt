@@ -1,0 +1,8 @@
+Algoritmo "Exercicio 08 da Lista 1"
+var
+    comprimento, altura, largura, volume : real
+início
+     leia comprimento, altura, largura
+     volume <- comprimento * altura * largura
+     escreva volume
+fim

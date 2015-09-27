@@ -1,0 +1,8 @@
+Algoritmo "Exercicio 12 da Lista 1"
+var
+    A, B, res : inteiro
+início
+     leia A, B
+     res <- (A - B) * (A - B)
+     escreva res
+fim

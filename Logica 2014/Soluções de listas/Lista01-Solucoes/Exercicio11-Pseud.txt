@@ -1,0 +1,10 @@
+Algoritmo "Exercicio 11 da Lista 1"
+var
+    A, B, C : inteiro
+início
+     leia A, B
+     C <- A
+	 A <- B
+	 B <- C
+     escreva A, B
+fim
